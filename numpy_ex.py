@@ -14,7 +14,7 @@ E = np.random.rand(10)
 
 F = np.random.normal(loc = 10, scale = 2, size = (2, 5))
 
-G = np.random.normal(loc = 10, scale = 2, size = (5, 2))
+G = np.random.rand(5,2)
 
 H = np.dot(F, G)
 
@@ -25,5 +25,5 @@ print(D)            # (4)
 print(E)            # (5)
 print(F)            # (6)
 print(F[:, 2])      # (7)
-print(F[:, 3:4])    # (8)    
+print(F[:, 3:4])    # (8)  
 print(H)            # (9)
